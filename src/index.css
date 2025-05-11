@@ -5,7 +5,7 @@
 
 @layer base {
   :root {
-    --background: 260 50% 97%;
+    --background: 160 50% 97%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -14,16 +14,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 252 87% 63%;
+    --primary: 160 84% 39%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 260 20% 96%;
+    --secondary: 160 20% 96%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 262 83% 58%;
+    --accent: 160 84% 39%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -55,7 +55,7 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 263 80% 65%;
+    --primary: 160 84% 39%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -64,7 +64,7 @@
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 263 70% 50%;
+    --accent: 160 70% 50%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
@@ -100,15 +100,15 @@
 
 @layer components {
   .gradient-text {
-    @apply bg-gradient-to-r from-splat-vividPurple to-splat-blue text-transparent bg-clip-text;
+    @apply bg-gradient-to-r from-splat-vividGreen to-splat-emerald text-transparent bg-clip-text;
   }
 
   .btn-gradient {
-    @apply bg-gradient-to-r from-splat-vividPurple to-splat-blue hover:from-splat-blue hover:to-splat-vividPurple transition-all duration-300 text-white;
+    @apply bg-gradient-to-r from-splat-vividGreen to-splat-emerald hover:from-splat-emerald hover:to-splat-vividGreen transition-all duration-300 text-white;
   }
 
   .card-hover {
-    @apply transition-all duration-300 hover:shadow-lg hover:shadow-purple-200 hover:-translate-y-1;
+    @apply transition-all duration-300 hover:shadow-lg hover:shadow-green-200 hover:-translate-y-1;
   }
 
   .section-padding {

@@ -7,17 +7,17 @@ const Process: React.FC = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            How <span className="gradient-text">SplatAI</span> Works
+            How <span className="gradient-text">Gateway Labs</span> Works
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             From upload to embed in minutes. Our simple process makes creating and sharing
-            3D Gaussian Splats accessible to everyone.
+            3D visualizations accessible to everyone.
           </p>
         </div>
 
         <div className="relative">
           {/* Connecting Line */}
-          <div className="hidden md:block absolute left-1/2 top-12 bottom-0 w-1 bg-gradient-to-b from-splat-vividPurple to-splat-blue -translate-x-1/2"></div>
+          <div className="hidden md:block absolute left-1/2 top-12 bottom-0 w-1 bg-gradient-to-b from-splat-vividGreen to-splat-emerald -translate-x-1/2"></div>
 
           {/* Steps */}
           <div className="space-y-24">
@@ -71,8 +71,8 @@ const Step: React.FC<StepProps> = ({
   return (
     <div className="relative">
       {/* Circle on Timeline */}
-      <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 -translate-y-1/4 w-12 h-12 rounded-full bg-white shadow-lg items-center justify-center border-4 border-splat-vividPurple z-10">
-        <span className="font-bold text-splat-vividPurple">{number}</span>
+      <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 -translate-y-1/4 w-12 h-12 rounded-full bg-white shadow-lg items-center justify-center border-4 border-splat-vividGreen z-10">
+        <span className="font-bold text-splat-vividGreen">{number}</span>
       </div>
 
       <div
@@ -81,15 +81,15 @@ const Step: React.FC<StepProps> = ({
         } items-center gap-8`}
       >
         <div className="w-full md:w-1/2 space-y-4">
-          <div className="md:hidden flex w-12 h-12 rounded-full bg-white shadow-md items-center justify-center border-4 border-splat-vividPurple mb-4">
-            <span className="font-bold text-splat-vividPurple">{number}</span>
+          <div className="md:hidden flex w-12 h-12 rounded-full bg-white shadow-md items-center justify-center border-4 border-splat-vividGreen mb-4">
+            <span className="font-bold text-splat-vividGreen">{number}</span>
           </div>
           <h3 className="text-2xl font-bold">{title}</h3>
           <p className="text-gray-600">{description}</p>
         </div>
 
         <div className="w-full md:w-1/2">
-          <div className="aspect-video rounded-lg overflow-hidden bg-gradient-to-br from-purple-100 to-blue-100 flex items-center justify-center shadow-lg">
+          <div className="aspect-video rounded-lg overflow-hidden bg-gradient-to-br from-green-100 to-emerald-100 flex items-center justify-center shadow-lg">
             <p className="text-gray-600 text-center p-8">Step {number} visualization</p>
           </div>
         </div>

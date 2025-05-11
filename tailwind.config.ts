@@ -64,12 +64,12 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
                 splat: {
-                    purple: '#7E69AB',
-                    darkPurple: '#1A1F2C',
-                    lightPurple: '#D6BCFA',
-                    vividPurple: '#8B5CF6',
+                    green: '#10B981',
+                    darkGreen: '#047857',
+                    lightGreen: '#A7F3D0',
+                    vividGreen: '#059669',
                     blue: '#0EA5E9',
-                    darkBlue: '#2D3A8C',
+                    emerald: '#34D399',
                 }
 			},
 			borderRadius: {

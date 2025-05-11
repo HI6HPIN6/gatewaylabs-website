@@ -32,18 +32,18 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center space-x-2">
-          <span className="font-bold text-2xl gradient-text">SplatAI</span>
+          <span className="font-bold text-2xl gradient-text">Gateway Labs</span>
         </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#features" className="text-gray-700 hover:text-splat-vividPurple font-medium">
+          <a href="#features" className="text-gray-700 hover:text-splat-vividGreen font-medium">
             Features
           </a>
-          <a href="#process" className="text-gray-700 hover:text-splat-vividPurple font-medium">
+          <a href="#process" className="text-gray-700 hover:text-splat-vividGreen font-medium">
             How It Works
           </a>
-          <a href="#pricing" className="text-gray-700 hover:text-splat-vividPurple font-medium">
+          <a href="#pricing" className="text-gray-700 hover:text-splat-vividGreen font-medium">
             Pricing
           </a>
           <Button className="btn-gradient">Try for Free</Button>
