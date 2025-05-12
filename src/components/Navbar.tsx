@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import Logo from "./Logo";
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +33,7 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center space-x-2">
-          <span className="font-bold text-2xl gradient-text">Gateway Labs</span>
+          <Logo />
         </a>
 
         {/* Desktop Navigation */}

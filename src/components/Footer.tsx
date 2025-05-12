@@ -1,5 +1,6 @@
 
 import React from "react";
+import Logo from "./Logo";
 
 const Footer: React.FC = () => {
   return (
@@ -7,7 +8,9 @@ const Footer: React.FC = () => {
       <div className="container mx-auto max-w-6xl px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-1 md:col-span-1">
-            <h2 className="font-bold text-2xl gradient-text mb-4">Gateway Labs</h2>
+            <div className="mb-4">
+              <Logo className="items-start" />
+            </div>
             <p className="text-gray-600 mb-4">
               The complete platform for creating, hosting, and sharing 3D visualizations of the world.
             </p>
