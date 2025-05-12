@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Circle } from "lucide-react";
+import { Circle, Eye } from "lucide-react";
 
 interface IconLogoProps {
   className?: string;
@@ -10,12 +10,14 @@ interface IconLogoProps {
 const IconLogo: React.FC<IconLogoProps> = ({ className = "", size = 24 }) => {
   return (
     <div className={`relative ${className}`}>
-      <div className="w-full h-full flex items-center justify-center">
-        <Circle size={size} className="text-splat-darkGreen fill-splat-darkGreen" />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="bg-white w-1/2 h-1/2 rounded-full" />
-        </div>
-      </div>
+      <Circle 
+        size={size} 
+        className="text-splat-darkGreen fill-splat-lightGreen/30 stroke-2" 
+      />
+      <Eye 
+        size={size * 0.6} 
+        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-splat-darkGreen stroke-[2.5px]" 
+      />
     </div>
   );
 };
